@@ -28,7 +28,6 @@
         app:itemTextAppearanceActiveBoldEnabled="false"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/menu_bottombar"
-
         />
 
 

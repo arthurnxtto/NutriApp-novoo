@@ -73,8 +73,8 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:layout_width="match_parent"
         android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idSenha"
         android:layout_gravity="center"
@@ -87,15 +87,18 @@
         android:text="Entrar"
         android:textSize="20dp" />
 
-    <TextView
-        android:id="@+id/txtCadastrar"
-        android:layout_width="match_parent"
+
+    <Button
+        android:id="@+id/btnCadastrarLogin"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:gravity="center"
         android:text="Não tem cadastro? Clique aqui"
         android:textColor="@color/corTextoVerde"
         android:textSize="20sp" />
+
 
 </RelativeLayout>

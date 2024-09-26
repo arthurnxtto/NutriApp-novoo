@@ -3,15 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/corFundo"
     tools:context=".PratosFragment">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
-        android:text="PRATOS"
-        android:textAlignment="center"
-        android:textSize="24sp" />
+        android:background="@color/corFundo">
+
+        <TextView
+            android:id="@+id/txtHeaderPratos"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/corTextoVerde"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="PRATOS"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/txtHeaderPratos"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/logoapp" />
+
+    </RelativeLayout>
 
 </FrameLayout>
